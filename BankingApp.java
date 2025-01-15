@@ -7,7 +7,7 @@ class BankDetails {
     Scanner sc = new Scanner(System.in);  
     //method to open new account  
     public void openAccount() {  
-        System.out.print("Enter Account No: ");  
+        System.out.print("Enter Account No: ");
         accno = sc.next();  
         System.out.print("Enter Account type: ");  
         acc_type = sc.next();  
